@@ -6,9 +6,9 @@ Please note that this version of mongo_fdw works with PostgreSQL and EDB Postgre
 
 Installation
 ------------
-The MongoDB FDW depends on the official MongoDB C Driver version 0.8  and includes it as a git submodule. If you are cloning this repository for the first time, be sure to pass the --recursive option to git clone in order to initialize the driver submodule to a useable state.
+The MongoDB FDW depends on the official MongoDB C Driver version 0.8  and includes it as a git submodule. If you are cloning this repository for the first time, be sure to pass the `--recursive` option to `git clone` in order to initialize the driver submodule to a useable state.
 
-If checked out this project before and for some reason your submodule is not up-to-date, run git submodule update --init.
+If checked out this project before and for some reason your submodule is not up-to-date, run `git submodule update --init`.
 
 When you type `make`, the C driver's source code also gets automaticallycompiled and linked.
 
